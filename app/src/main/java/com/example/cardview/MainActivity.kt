@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        viewManager = LinearLayoutManager(this)
+        viewManager = LinearLayoutManager(this, HORIZONTAL, true)
         viewAdapter = MyAdapter()
 
 
